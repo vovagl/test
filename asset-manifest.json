@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vovagl/test.git/static/css/main.6a8698c4.css",
+    "main.js": "/vovagl/test.git/static/js/main.22f932df.js",
+    "static/js/453.cb3cc533.chunk.js": "/vovagl/test.git/static/js/453.cb3cc533.chunk.js",
+    "index.html": "/vovagl/test.git/index.html",
+    "main.6a8698c4.css.map": "/vovagl/test.git/static/css/main.6a8698c4.css.map",
+    "main.22f932df.js.map": "/vovagl/test.git/static/js/main.22f932df.js.map",
+    "453.cb3cc533.chunk.js.map": "/vovagl/test.git/static/js/453.cb3cc533.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a8698c4.css",
+    "static/js/main.22f932df.js"
+  ]
+}
