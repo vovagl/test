@@ -1,0 +1,32 @@
+.modal{
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.error{
+    color: red;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+input {
+    width: 90%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.block_buttons{
+    padding:15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+}

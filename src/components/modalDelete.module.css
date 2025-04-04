@@ -1,0 +1,20 @@
+.modal{
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.block_buttons{
+    padding:15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.block_buttons button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.error{
+    color: red;
+}

@@ -1,0 +1,21 @@
+.container{
+    margin: 0 10px;    
+}
+.container img{
+    margin: 0 auto;
+    max-width: 100%; 
+}
+.container__info p{
+    margin-top: 10px;
+}
+.block_buttons{
+    padding:25px 0;
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.block_buttons button{
+    padding: 5px 10px;
+    cursor: pointer;
+}

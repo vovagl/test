@@ -1,0 +1,12 @@
+.error{
+    color: red;
+}
+li{
+    list-style: none;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px 3px  green;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
