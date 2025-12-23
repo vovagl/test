@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import axios from "axios";
 import css from "./seminarList.module.css";
+import { useState, useEffect } from "react";
 import Spinner from "./Spinner";
 import Seminar from "./Seminar";
-
-// Импортируем данные напрямую
-import db from "../data/db.json";
 
 export default function SeminarList() {
   const [seminars, setSeminars] = useState([]);
@@ -12,14 +11,16 @@ export default function SeminarList() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    try {
-      // Берем данные из JSON
-      setSeminars(db.seminars); // предполагаем, что структура { "seminars": [...] }
-      setIsLoading(false);
-    } catch (err) {
-      setError("Error loading data");
-      setIsLoading(false);
-    }
+    axios
+      .get("http://localhost:3500/seminars")
+      .then((res) => {
+        setSeminars(res.data);
+        setIsLoading(false);
+      })
+      .catch((err) => {
+        setError("Error fetching");
+        setIsLoading(false);
+      });
   }, []);
 
   return (
